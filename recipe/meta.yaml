@@ -26,7 +26,7 @@ build:
 # Suggests: knitr, lme4, MASS, Matrix, testthat
 requirements:
   build:
-    - {{ compiler('c') }}          # [not win
+    - {{ compiler('c') }}          # [not win]
     - {{ compiler('fortran') }}    # [not win]
     - {{ compiler('m2w64_c') }}         # [win]
     - {{ compiler('m2w64_fortran') }}   # [win]
